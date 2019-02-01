@@ -1,0 +1,49 @@
+/* Navigation */
+#navbar {
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar ul {
+  margin-top: 1rem;
+}
+
+#navbar ul li a {
+  padding: 0.5rem;
+}
+
+/* Articles */
+#adventures .adventure-container .card {
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  border-bottom: #333 dotted 1px;
+}
+
+#adventures .adventure-container .card:nth-child(2) {
+    display: grid;
+    grid-template-areas: 
+    'img'
+    'card-content';
+}
+
+#adventures .adventure-container .card p {
+  margin-bottom: 1rem;
+}
+
+
+/* Footer */
+#main-footer .footer-container input[type="email"] {
+  width: 100%;
+}
+
+#main-footer .footer-container input[type="submit"] {
+  width: 100%;
+}
+
+#main-footer .footer-text {
+    text-align: center;
+}
+
+#main-footer .footer-text h3 {
+    margin-bottom: 0.5rem;
+}
