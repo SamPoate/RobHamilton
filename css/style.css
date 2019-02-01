@@ -60,6 +60,7 @@ a {
 }
 
 .card {
+  background: #444;
   padding: 2rem;
 }
 
@@ -87,7 +88,7 @@ a {
   display: inline-block;
   color: var(--primary-text-color);
   background: #1599f1;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding: 0.4rem 2rem;
   border: none;
   border-radius: 5px;
@@ -155,16 +156,33 @@ a {
   color: var(--primary-text-color);
 }
 
+#adventures .adventure-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem 0;
+}
+
 #adventures .adventure-container .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
   align-items: center;
+  grid-column-gap: 2rem;
+}
+
+#adventures .adventure-container .card p {
+  margin-bottom: 1rem;
 }
 
 #adventures .adventure-thumbnail {
     max-width: 100%;
     height: auto;
+}
+
+#adventures .card-date {
+  color: rgb(255, 89, 83);
+  font-size: 1.4rem;
 }
 
 /* Footer */
@@ -176,11 +194,13 @@ a {
 #main-footer .footer-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  text-align: center;
   grid-gap: 1.5rem;
 }
 
 #main-footer .footer-container input[type="email"] {
   width: 50%;
+  text-align: center;
   padding: 0.5rem;
   margin: 1rem 0;
 }
