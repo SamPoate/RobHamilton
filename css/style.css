@@ -23,6 +23,7 @@
 body {
   font-family: "Nanum+Gothic", sans-serif;
   line-height: 1.4;
+  background: var(--dark-color)
 }
 
 a {
@@ -183,6 +184,17 @@ a {
 #adventures .card-date {
   color: rgb(255, 89, 83);
   font-size: 1.4rem;
+}
+
+/* Gallery */
+#main-gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  height: 50vh;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
 }
 
 /* Footer */
