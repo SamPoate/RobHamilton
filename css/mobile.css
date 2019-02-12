@@ -12,24 +12,18 @@
   padding: 0.5rem;
 }
 
-/* Articles */
-#adventures .adventure-container .card {
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 1rem;
-  border-bottom: #333 dotted 1px;
+/* Stats */
+#stats {
+  padding-top: 3rem;
 }
 
-#adventures .adventure-container .card:nth-child(2) {
-    display: grid;
-    grid-template-areas: 
-    'img'
-    'card-content';
+#stats .left {
+  margin-right: 1rem;
 }
 
-#adventures .adventure-container .card p {
-  margin-bottom: 1rem;
+#stats .right {
+  margin-left: 1rem;
 }
-
 
 /* Footer */
 #main-footer .footer-container input[type="email"] {
