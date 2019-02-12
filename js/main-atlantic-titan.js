@@ -1,9 +1,9 @@
 //Sticky menu background
 window.addEventListener('scroll', function() {
     if (window.scrollY > 150) {
-        document.querySelector('#navbar').style.opacity = 1;
+        document.querySelector('#navbar').style.background = rgba(243, 243, 243, 1);
     } else {
-        document.querySelector('#navbar').style.opacity = 0.9;
+        document.querySelector('#navbar').style.background = rgba(243, 243, 243, 0);
     }
 });
 
