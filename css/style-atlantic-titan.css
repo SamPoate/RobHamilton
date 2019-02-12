@@ -173,24 +173,29 @@ a {
 }
 
 #stats .stat {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 100vw;
-  justify-content: space-between;
   text-align: center;
-  align-content: center;
-
 }
 
 #stats .stat i {
-  align-self: center;
   margin-bottom: 2rem;
   color: #646464;
 }
 
-#stats .infotwo {
-  padding-left: 4rem;
+#stats .info {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
+#stats .left {
+  margin-right: 10rem;
+}
+
+#stats .right {
+  margin-left: 10rem;
+}
 
 /* About Me */
 
@@ -223,7 +228,6 @@ a {
 #charity h2 {
   margin: 2rem;
 }
-
 
 /* Footer */
 #main-footer {
