@@ -4,8 +4,9 @@ $(document).on('scroll', function (e) {
     var alpha = $(document).scrollTop() / 250;
 
            $('#navbar').css('background-color', 'rgba(243,243,243,' + alpha + ')');
+           $('#navbar a').css('color', '#333');
            $('#navbar ul a').css('color', '#333');
- });
+});
 
 //Smooth Srolling
 $("#navbar a").on("click", function(event) {

@@ -122,6 +122,10 @@ a {
   padding: 1rem;
 }
 
+#navbar a {
+  color: #fff;
+}
+
 #navbar ul {
   display: flex;
   align-items: center;
