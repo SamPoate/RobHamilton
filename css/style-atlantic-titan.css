@@ -105,6 +105,11 @@ a {
   background: #3fa9f0;
 }
 
+.highlight {
+  background: darkred;
+  color: #fff !important;
+}
+
 /* Navbar */
 
 #navbar {
@@ -171,14 +176,13 @@ a {
 #stats .stat {
   display: flex;
   width: 100vw;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
 }
 
 #stats .stat i {
-  height: 10vh;
-  align-self: center;
-  margin: 1rem;
+  margin-bottom: 2rem;
+  color: #646464;
 }
 
 /* About Me */
