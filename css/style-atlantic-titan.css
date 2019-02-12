@@ -177,6 +177,8 @@ a {
   width: 100vw;
   justify-content: space-between;
   text-align: center;
+  align-content: center;
+
 }
 
 #stats .stat i {
@@ -184,6 +186,11 @@ a {
   margin-bottom: 2rem;
   color: #646464;
 }
+
+#stats .infotwo {
+  padding-left: 4rem;
+}
+
 
 /* About Me */
 
