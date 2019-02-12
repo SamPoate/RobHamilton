@@ -168,14 +168,12 @@ a {
 /* Stats */
 
 #stats {
-  display: flex;
   padding: 2rem 0;
 }
 
 #stats .stat {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 100vw;
   text-align: center;
 }
 
