@@ -111,7 +111,7 @@ a {
   display: flex;
   position: fixed;
   width: 100%;
-  background: var(--light-color);
+  background: #f3f3f3;
   color: var(--secondary-text-color);
   justify-content: space-between;
   z-index: 1;
@@ -139,7 +139,6 @@ a {
 #showcase {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../img/ocean.jpg") no-repeat center center/cover;
-  /* Photo by Simon Migaj from Pexels */
   height: 70vh;
   color: var(--primary-text-color);
 }
@@ -160,4 +159,35 @@ a {
     justify-content: center;
     background: darkred;
     padding: 1.2rem 0;
+}
+
+/* Stats */
+
+#stats {
+  display: flex;
+  padding: 2rem 0;
+}
+
+#stats .stat {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#stats .stat i {
+  height: 10vh;
+  align-self: center;
+  margin: 1rem;
+}
+
+/* About Me */
+
+#about .container {
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+#about h2 {
+  margin: 2rem;
 }
