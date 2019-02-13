@@ -215,13 +215,17 @@ a {
   margin: 2rem;
 }
 
-#about .content {
+#about .content-split {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-#about .content p {
+#about .content-split p {
   padding: 0 1rem;
+}
+
+#about .content-split iframe {
+  align-self: center;
 }
 
 /* Charity Info */
