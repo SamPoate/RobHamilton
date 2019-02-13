@@ -1,11 +1,18 @@
 //Sticky menu background
-$(document).on('scroll', function (e) {
+$(document).on("scroll", function(e) {
+  var alpha = $(document).scrollTop() / 350;
 
-    var alpha = $(document).scrollTop() / 250;
+  $("#navbar").css("background-color", "rgba(243,243,243," + alpha + ")");
+});
 
-           $('#navbar').css('background-color', 'rgba(243,243,243,' + alpha + ')');
-           $('#navbar a').css('color', '#333');
-           $('#navbar ul a').css('color', '#333');
+window.addEventListener("scroll", function() {
+  if (window.scrollY > 300) {
+    $("#navbar a").css("color", "#333");
+    $("#navbar ul a").css("color", "#333");
+  } else {
+    $("#navbar a").css("color", "#fff");
+    $("#navbar ul a").css("color", "#fff");
+  }
 });
 
 //Smooth Srolling
