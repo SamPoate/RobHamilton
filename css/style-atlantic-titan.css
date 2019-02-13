@@ -215,16 +215,16 @@ a {
   margin: 2rem;
 }
 
-#about .content-split {
+#about .content-h-split {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-#about .content-split p {
+#about .content-h-split p {
   padding: 0 1rem;
 }
 
-#about .content-split iframe {
+#about .content-h-split iframe {
   align-self: center;
 }
 
