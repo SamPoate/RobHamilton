@@ -3,9 +3,7 @@ $(document).on("scroll", function(e) {
   var alpha = $(document).scrollTop() / 350;
 
   $("#navbar").css("background-color", "rgba(243,243,243," + alpha + ")");
-});
 
-window.addEventListener("scroll", function() {
   if (window.scrollY > 300) {
     $("#navbar a").css("color", "#333");
     $("#navbar ul a").css("color", "#333");
