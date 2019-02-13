@@ -228,6 +228,10 @@ a {
   align-self: center;
 }
 
+#about .content-v-split iframe {
+  padding-top: 1rem;
+}
+
 /* Charity Info */
 #sponsors {
   text-align: center;
