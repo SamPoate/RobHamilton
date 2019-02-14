@@ -13,6 +13,11 @@ $(document).on("scroll", function(e) {
   }
 });
 
+// Deletes last menu item on mobile
+if (window.outerWidth <= 768) {
+  $("#navbar ul li:last-child").remove();
+}
+
 //Smooth Srolling
 $("#navbar a").on("click", function(event) {
   if (this.hash !== "") {
