@@ -43,3 +43,15 @@ $(".btn").on("click", function(event) {
     );
   }
 });
+
+$({countNum: 99}).animate({countNum: 1000}, {
+  duration: 8000,
+  easing:'linear',
+  step: function() {
+    // What todo on every count
+    console.log(Math.floor(this.countNum));
+  },
+  complete: function() {
+    console.log('finished');
+  }
+});

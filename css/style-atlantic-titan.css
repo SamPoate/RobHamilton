@@ -3,7 +3,7 @@
 :root {
   --primary-text-color: #fff;
   --secondary-text-color: #333;
-  --primary-color: #c72727;
+  --primary-color: #8b0000;
   --secondary-color: #f99500;
   --light-color: #f3f3f3;
   --dark-color: #333;
@@ -106,7 +106,7 @@ a {
 }
 
 .highlight {
-  background: darkred;
+  background: var(--primary-color);
   color: #fff !important;
 }
 
@@ -140,7 +140,7 @@ a {
 }
 
 #navbar ul li a:hover {
-  background: var(--light-color);
+  background: var(--primary-color);
 }
 
 /* Showcase */
@@ -165,7 +165,7 @@ a {
 #donate-bar {
   display: flex;
   justify-content: center;
-  background: darkred;
+  background: var(--primary-color);
   padding: 1.2rem 0;
 }
 
