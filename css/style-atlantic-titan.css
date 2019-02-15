@@ -238,6 +238,15 @@ a {
   margin-bottom: 2rem;
 }
 
+#about .info img {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+#about .info h2 {
+  margin-bottom: 1rem;
+}
+
 #about h2 {
   margin: 2rem;
 }
