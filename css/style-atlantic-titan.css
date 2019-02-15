@@ -67,7 +67,7 @@ a {
 }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -160,6 +160,10 @@ a {
   align-items: center;
   height: 70vh;
   padding: 0 2rem;
+}
+
+#showcase .showcase-content img {
+  background: transparent;
 }
 
 /* Donate Bar */
