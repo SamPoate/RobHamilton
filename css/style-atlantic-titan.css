@@ -195,7 +195,6 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: #333;
   padding: 1rem 0;
   font-size: 2rem;
 }
