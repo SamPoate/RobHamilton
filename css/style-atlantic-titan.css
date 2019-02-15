@@ -146,9 +146,10 @@ a {
 /* Showcase */
 #showcase {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/ocean.jpg") no-repeat center center/cover;
+    url("../img/ocean_2.jpg") no-repeat center center/cover;
   height: 70vh;
   color: var(--primary-text-color);
+
 }
 
 #showcase .showcase-content {
