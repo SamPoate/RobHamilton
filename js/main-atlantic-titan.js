@@ -62,7 +62,7 @@ $({countNum: 99}).animate({countNum: 1000}, {
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2020 15:37:25").getTime();
+var countDownDate = new Date("Dec 12, 2020 15:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -80,12 +80,12 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementsByClassName("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("counter").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("counter").innerHTML = "The Race Has Begun!";
   }
 }, 1000);
