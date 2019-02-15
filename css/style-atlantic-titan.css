@@ -67,7 +67,7 @@ a {
 }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -162,6 +162,10 @@ a {
   padding: 0 2rem;
 }
 
+#showcase .showcase-content img {
+  background: transparent;
+}
+
 /* Donate Bar */
 #donate-bar {
   display: flex;
@@ -191,7 +195,6 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: #333;
   padding: 1rem 0;
   font-size: 2rem;
 }
