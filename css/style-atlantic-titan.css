@@ -146,9 +146,10 @@ a {
 /* Showcase */
 #showcase {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/ocean.jpg") no-repeat center center/cover;
+    url("../img/ocean_2.jpg") no-repeat center center/cover;
   height: 70vh;
   color: var(--primary-text-color);
+
 }
 
 #showcase .showcase-content {
@@ -167,6 +168,15 @@ a {
   justify-content: center;
   background: var(--primary-color);
   padding: 1.2rem 0;
+}
+
+/* Countdown Timer */
+#countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #000;
+  margin: 1rem 0;
 }
 
 /* Stats */
@@ -236,7 +246,6 @@ a {
 #sponsors {
   text-align: center;
   padding: 3rem;
-  background: #00247d;
   color: #000;
 }
 
