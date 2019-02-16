@@ -305,7 +305,10 @@ a {
 
 #main-footer .footer-container {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+    "footer-text logo"
+    "c c";
   text-align: center;
   grid-gap: 1.5rem;
 }
@@ -325,4 +328,10 @@ a {
 #main-footer .copy {
   text-align: center;
   margin-top: 1rem;
+  column-span: 100%;
+  grid-area: c;
+}
+
+#main-footer .logo img {
+  width: 100%;
 }
