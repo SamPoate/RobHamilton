@@ -34,20 +34,20 @@ $("#navbar a").on("click", function(event) {
   }
 });
 
-$(".btn").on("click", function(event) {
-  if (this.hash !== "") {
-    event.preventDefault();
+// $(".btn").on("click", function(event) {
+//   if (this.hash !== "") {
+//     event.preventDefault();
 
-    const hash = this.hash;
+//     const hash = this.hash;
 
-    $("html, body").animate(
-      {
-        scrollTop: $(hash).offset().top - 65
-      },
-      800
-    );
-  }
-});
+//     $("html, body").animate(
+//       {
+//         scrollTop: $(hash).offset().top - 65
+//       },
+//       800
+//     );
+//   }
+// });
 
 $({countNum: 99}).animate({countNum: 1000}, {
   duration: 8000,
