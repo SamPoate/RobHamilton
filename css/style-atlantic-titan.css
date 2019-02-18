@@ -283,6 +283,14 @@ a {
   grid-area: para-2;
 }
 
+#about .map {
+  margin-top: 1rem;
+}
+
+#about .map img {
+  width: 100%;
+}
+
 #about .content-bio img {
   width: 40%;
   margin-bottom: 1rem;
