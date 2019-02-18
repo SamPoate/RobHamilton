@@ -361,6 +361,11 @@ a {
   grid-area: c;
 }
 
+#main-footer .logo {
+  display: grid;
+  align-items: center;
+}
+
 #main-footer .logo img {
   width: 100%;
 }
