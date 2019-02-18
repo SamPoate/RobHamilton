@@ -291,25 +291,30 @@ a {
 /* Charity Info */
 #sponsors {
   text-align: center;
-  padding: 3rem;
+  margin: 3rem;
   color: #000;
 }
 
 #sponsors .foo {
   display: grid;
-  padding: 3rem;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
   background: #fff;
   border-radius: 20px; 
+  padding: 0;
 }
 
-#sponsors h2 {
-  margin-bottom: 0.5rem;
+#sponsors .sponsor-title {
+  grid-column: 1 / 4;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  background: darkred;
+  color: var(--primary-text-color);
+  padding: 0.25rem 0;
 }
 
 #sponsors img {
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
   height: 10vh;
 }
 
