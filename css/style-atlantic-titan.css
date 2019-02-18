@@ -141,6 +141,7 @@ a {
 
 #navbar ul li a:hover {
   background: var(--primary-color);
+  color: #fff !important;
 }
 
 /* Showcase */
