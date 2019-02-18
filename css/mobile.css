@@ -7,17 +7,22 @@
 #navbar {
   flex-direction: column;
   align-items: center;
-  line-height: 0.75;
+  line-height: 1.5rem;;
   padding-top: 1.25rem;
 }
 
 #navbar ul {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  flex-direction: column;
+}
+
+#navbar ul li {
+  margin: 0.15rem;
 }
 
 #navbar ul li a {
-  padding: 0.5rem;
-  font-size: 0.6rem;
+  font-size: 1rem;
+  padding: 0.5rem 5rem;
 }
 
 /* Showcase */
@@ -28,6 +33,12 @@
 
 #showcase .showcase-content img {
   width: 100%
+}
+
+/* Donate Bar */
+
+#donate-bar {
+  padding: 0.5rem 0;
 }
 
 /* Stats */
@@ -57,15 +68,23 @@
 
 
 /* Sponsors */
-#sponsors .info {
-  padding-bottom: 3rem;
-}
-
 #sponsors .foo {
   grid-template-columns: repeat(1, 1fr);
 }
 
+#sponsors .sponsor-title {
+  grid-column: 1;
+}
+
 /* Footer */
+#main-footer .footer-container {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: 
+  "footer-text"
+  "logo"
+  "c";
+}
+
 #main-footer .footer-container input[type="email"] {
   width: 100%;
 }
