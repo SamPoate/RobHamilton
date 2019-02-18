@@ -147,7 +147,7 @@ a {
 #showcase {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../img/ocean_2.jpg") no-repeat center center/cover;
-  height: 70vh;
+  height: 91vh;
   color: var(--primary-text-color);
 
 }
@@ -158,7 +158,7 @@ a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 91vh;
   padding: 0 2rem;
 }
 
@@ -242,11 +242,6 @@ a {
   margin-bottom: 2rem;
 }
 
-#about .info img {
-  width: 35%;
-  margin-bottom: 1rem;
-}
-
 #about .info h2 {
   margin-bottom: 1rem;
 }
@@ -268,8 +263,29 @@ a {
   align-self: center;
 }
 
-#about .content-v-split iframe {
-  padding-top: 1rem;
+#about .content-bio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    "picture para-1 para-1"
+    "para-2 para-2 para-2";
+}
+
+#about .picture {
+  grid-area: picture;
+}
+
+#about .para-1 {
+  grid-area: para-1;
+}
+
+#about .para-2 {
+  grid-area: para-2;
+}
+
+#about .content-bio img {
+  width: 40%;
+  margin-bottom: 1rem;
 }
 
 /* Charity Info */
