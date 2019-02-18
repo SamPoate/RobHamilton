@@ -263,14 +263,6 @@ a {
   align-self: center;
 }
 
-#about .content-bio {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: 
-    "picture para-1 para-1"
-    "para-2 para-2 para-2";
-}
-
 #about .picture {
   grid-area: picture;
 }
