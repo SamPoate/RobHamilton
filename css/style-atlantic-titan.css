@@ -208,8 +208,8 @@ a {
 }
 
 #stats .stat {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -218,18 +218,18 @@ a {
   color: #646464;
 }
 
-#stats .info {
+/* #stats .info {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-}
+} */
 
-#stats .left {
+/* #stats .left {
   margin-right: 10rem;
 }
 
 #stats .right {
   margin-left: 10rem;
-}
+} */
 
 /* About */
 
